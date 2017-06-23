@@ -1,0 +1,22 @@
+{
+  "name": "learn-idioms",
+  "version": "0.0.1",
+  "description": "Application for easy learning english idioms",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ximet/LearnIdioms.git"
+  },
+  "keywords": [
+    "learn"
+  ],
+  "author": "ximet <dq.ximet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ximet/LearnIdioms/issues"
+  },
+  "homepage": "https://github.com/ximet/LearnIdioms#readme"
+}
