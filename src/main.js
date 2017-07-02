@@ -4,6 +4,6 @@ import { render } from 'react-dom';
 import AppViewState from './states/AppViewState';
 import AppView from './views/AppView';
 
-const appState = new AppState();
+const appState = new AppViewState();
 
-ReactDOM.render( <App appState={appState} />, document.getElementById('root'));
+ReactDOM.render( <AppView appState={appState} />, document.getElementById('root'));
