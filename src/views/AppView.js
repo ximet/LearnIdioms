@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react';
 
-@observer
 class AppView extends Component {
   render() {
     return (
       <div>
         <button onClick={this.onReset}>
-          Seconds passed: {this.props.appState.timer}
+          Seconds passed: {this.props.store.appView.timer}
         </button>
       </div>
     );
   }
 
   onReset = () => {
-    this.props.appState.resetTimer();
+    this.props.store.appView.resetTimer();
   }
 };
 
-export default AppView;
+export default observer(['store'], AppView);
