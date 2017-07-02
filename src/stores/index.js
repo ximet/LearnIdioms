@@ -1,7 +1,3 @@
 import AppViewState from './AppViewState.js';
 
-const store = {
-  appView: new AppViewState()
-};
-
-export default store;
+export const appView = new AppViewState();
