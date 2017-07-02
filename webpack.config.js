@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 const webpackConfig = {
     context: __dirname + '/src',
-    entry: './App.js',
+    entry: './main.js',
     output: {
       path: path.join(__dirname, 'dist'),
       publicPath: '/dist/',
